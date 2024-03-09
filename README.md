@@ -1,6 +1,6 @@
 # Movie Lobby API
 
-        Hi, I'm Sudhakar Mirjeli. I have 3 years of work experience in Softwrae development as a Software Development Engineer (SDE).
+ Hi, I'm Sudhakar Mirjeli. I have 3 years of work experience in Softwrae development as a Software Development Engineer (SDE).
  This is a RESTful API for managing a collection of movies.
  It allows you to perform CRUD operations on movies and search for movies by genre or title.
 
