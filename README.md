@@ -23,11 +23,11 @@
 - **GET /api/movies**: Get all movies.
   - Response: {"status":true, message:"Movies retrieved successfully.", "data": [{ "id": "Movie ID", "title": "Movie Title", "genre": "Movie Genre", "rating": "Movie Rating", "streamingLink": "Movie Streaming Link" }, ...] }
 
-- **PUT /api/movies/:id**: Update a movie by ID.
+- **PUT /api/movies/:id**: Update a movie by ID. (**NOTE**: Requires query parameter `role=admin`.)
   - Request Body: { "title": "Updated Movie Title", "genre": "Updated Movie Genre", "rating": "Updated Movie Rating", "streamingLink": "Updated Movie Streaming Link" }
   - Response: { "message": "Movie updated successfully."}
 
-- **DELETE /api/movies/:id**: Delete a movie by ID.
+- **DELETE /api/movies/:id**: Delete a movie by ID. (**NOTE**: Requires query parameter `role=admin`.)
   - Response: { "message": "Movie deleted successfully." }
 
 - **GET /api/movies/search?q=${query}**: Search for movies by genre or title.
